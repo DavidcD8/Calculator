@@ -59,12 +59,12 @@ def calculation():
                 if operator == "+" or operator == "-" or operator == "/" or operator == "*":
                     break
                 else:
-                    print("Wrong chracter try again")
+                    print("Wrong character try again")
                     continue
             extra_number = float(input("Enter a number: "))
 
         except ValueError:
-            print("Wrong chracter try again")
+            print("Wrong character try again")
         if operator == "+":
             result += extra_number
             print(result)
